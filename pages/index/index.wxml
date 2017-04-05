@@ -4,8 +4,8 @@
   <text>听力小助手\n</text>
 
   <view class="flex-wrp" style="flex-direction:row;">
-    <view > <image width="50%" mode="aspectFit" src="../../images/sbs1.jpg"></image></view>
-    <view ><image mode="aspectFit" src="../../images/niujin22.jpg"></image></view>
+    <view > <image mode="aspectFit" src="../../images/sbs1.jpg"></image></view>
+    <view ><image mode="aspectFill"   height="100" width="50"  src="../../images/niujin22.jpg"></image></view>
   </view>
 
   <audio poster="{{poster}}" name="{{name}}" author="{{author}}" src="{{src}}" id="myAudio" controls loop="false"></audio>
