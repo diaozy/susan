@@ -5,7 +5,7 @@
 
   <view class="flex-wrp" style="flex-direction:row;">
 
-  <image wx:for="{{pictures}}"  bindtap="bindtapgo{{index}}"   style="width:250rpx; height:350rpx"  wx:key="unique" src="{{item}}" data-index="{{index}}" mode="scaleToFill"> </image>
+  <image style="width:250rpx; height:350rpx"  wx:key="unique" src="{{pictures[1]}}" data-index="{{index}}" mode="scaleToFill"> </image>
   </view>
 
   <audio poster="{{poster}}" name="{{name}}" author="{{author}}" src="{{src}}" id="myAudio" controls loop="false"></audio>
