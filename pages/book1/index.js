@@ -1,5 +1,5 @@
 //index.js
-var data = require('../../utils/data.js').songs1;
+var data = require('../../utils/data.js').songs2;
 
 Page({
 	data: {
@@ -10,7 +10,7 @@ Page({
 //			'http://p3.music.126.net/zMwH3zh33TAacyh2_4RjXw==/1375489062675977.jpg'
 		]
 	},
-	onShow: function() {
+	onLoad: function() {
 		var rs = [],
 			idsMap = {},
 			keys = Object.keys(data),
@@ -38,8 +38,6 @@ Page({
 
 		wx.setStorageSync('ids', idsMap);
 	},
-
-
 	playTap: function(e) {
 		const dataset = e.currentTarget.dataset;
 		wx.navigateTo({

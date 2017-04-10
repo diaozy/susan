@@ -1,6 +1,7 @@
 {
   "pages": [
     "pages/recommend/index",
+    "pages/book1/index",
     "pages/play/index",
     "pages/my/index"
   ],
@@ -15,14 +16,20 @@
     "borderStyle": "white",
     "list": [{
       "pagePath": "pages/recommend/index",
-      "text": "推荐音乐",
+      "text": "听力助手",
+      "iconPath": "images/music.png",
+      "selectedIconPath": "images/music-active.png"
+    }, {
+      "pagePath": "pages/book1/index",
+      "text": "SBS",
       "iconPath": "images/music.png",
       "selectedIconPath": "images/music-active.png"
     }, {
       "pagePath": "pages/my/index",
-      "text": "我的音乐",
+      "text": "我的收藏",
       "iconPath": "images/my.png",
       "selectedIconPath": "images/my-active.png"
-    }]
+    }
+    ]
   }
 }
