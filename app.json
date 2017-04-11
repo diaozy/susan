@@ -6,6 +6,7 @@
     "pages/book4/index",
     "pages/recommend/index",
     "pages/play/index",
+    "pages/play2/index",
     "pages/my/index"
   ],
   "window": {

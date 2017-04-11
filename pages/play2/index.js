@@ -1,4 +1,4 @@
-var data = require('../../utils/data.js').songs1;
+var data = require('../../utils/data.js').songs2;
 var favUtil = require('../../utils/fav.js');
 var strRe = /\[(\d{2}:\d{2})\.\d{2,}\](.*)/;
 
