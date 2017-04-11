@@ -1,7 +1,10 @@
 {
   "pages": [
-    "pages/recommend/index",
     "pages/book1/index",
+    "pages/book2/index",
+    "pages/book3/index",
+    "pages/book4/index",
+    "pages/recommend/index",
     "pages/play/index",
     "pages/my/index"
   ],
@@ -14,17 +17,28 @@
     "color": "#000000",
     "selectedColor": "#bb2c08",
     "borderStyle": "white",
-    "list": [{
-      "pagePath": "pages/recommend/index",
-      "text": "听力助手",
-      "iconPath": "images/music.png",
-      "selectedIconPath": "images/music-active.png"
-    }, {
+    "list": [
+      {
       "pagePath": "pages/book1/index",
-      "text": "SBS",
+      "text": "SBS1课本",
       "iconPath": "images/music.png",
       "selectedIconPath": "images/music-active.png"
-    }, {
+    },{
+      "pagePath": "pages/book2/index",
+      "text": "SBS1练习册",
+      "iconPath": "images/music.png",
+      "selectedIconPath": "images/music-active.png"
+    },{
+      "pagePath": "pages/book3/index",
+      "text": "牛津一课一练",
+      "iconPath": "images/music.png",
+      "selectedIconPath": "images/music-active.png"
+    },{
+      "pagePath": "pages/recommend/index",
+      "text": "其他推荐",
+      "iconPath": "images/music.png",
+      "selectedIconPath": "images/music-active.png"
+    },  {
       "pagePath": "pages/my/index",
       "text": "我的收藏",
       "iconPath": "images/my.png",
