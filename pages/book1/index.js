@@ -4,9 +4,10 @@ var data = require('../../utils/data.js').songs1;
 Page({
 	data: {
 		imgUrls: [
-			'../../images/ad0.jpg',
 			'../../images/ad1.jpg',
+			'../../images/ad0.jpg',
 			'../../images/ad2.jpg',
+
 //广告图片
 //			'http://p3.music.126.net/bKFfzVVNmdLTaRN5uHHPqA==/18786255672743757.jpg',
 //			'http://p4.music.126.net/n15ddawhY4cyIzFu23CSJA==/1401877341861315.jpg',
@@ -45,7 +46,7 @@ Page({
 	playTap: function(e) {
 		const dataset = e.currentTarget.dataset;
 		wx.navigateTo({
-			url: `../play/index?id=${dataset.id}`
+			url: `../play1/index?id=${dataset.id}`
 		})
 	}
 })

@@ -5,8 +5,9 @@
     "pages/book3/index",
     "pages/book4/index",
     "pages/recommend/index",
-    "pages/play/index",
+    "pages/play1/index",
     "pages/play2/index",
+    "pages/play3/index",
     "pages/my/index"
   ],
   "window": {
@@ -31,15 +32,10 @@
       "selectedIconPath": "images/music-active.png"
     },{
       "pagePath": "pages/book3/index",
-      "text": "牛津一课一练",
+      "text": "新概念1",
       "iconPath": "images/music.png",
       "selectedIconPath": "images/music-active.png"
-    },{
-      "pagePath": "pages/recommend/index",
-      "text": "其他推荐",
-      "iconPath": "images/music.png",
-      "selectedIconPath": "images/music-active.png"
-    },  {
+    }, {
       "pagePath": "pages/my/index",
       "text": "我的收藏",
       "iconPath": "images/my.png",
