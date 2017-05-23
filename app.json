@@ -1,46 +1,13 @@
 {
   "pages": [
-    "pages/book1/index",
-    "pages/book2/index",
-    "pages/book3/index",
-    "pages/book4/index",
-    "pages/recommend/index",
-    "pages/play1/index",
-    "pages/play2/index",
-    "pages/play3/index",
-    "pages/my/index"
+    "pages/books/index",
+    "pages/list/index",
+    "pages/play/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#bb2c08",
+    "navigationBarBackgroundColor": "#4682B4",
     "navigationBarTextStyle": "black"
-  },
-  "tabBar": {
-    "color": "#000000",
-    "selectedColor": "#bb2c08",
-    "borderStyle": "white",
-    "list": [
-      {
-      "pagePath": "pages/book1/index",
-      "text": "SBS1课本",
-      "iconPath": "images/music.png",
-      "selectedIconPath": "images/music-active.png"
-    },{
-      "pagePath": "pages/book2/index",
-      "text": "SBS1练习册",
-      "iconPath": "images/music.png",
-      "selectedIconPath": "images/music-active.png"
-    },{
-      "pagePath": "pages/book3/index",
-      "text": "新概念1",
-      "iconPath": "images/music.png",
-      "selectedIconPath": "images/music-active.png"
-    }, {
-      "pagePath": "pages/my/index",
-      "text": "我的收藏",
-      "iconPath": "images/my.png",
-      "selectedIconPath": "images/my-active.png"
-    }
-    ]
   }
+
 }
