@@ -45,6 +45,7 @@ Page({
 
 
 	},
+
 	playTap: function(e) {
 		const dataset = e.currentTarget.dataset;
 		wx.navigateTo({
