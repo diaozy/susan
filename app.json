@@ -1,14 +1,22 @@
 {
   "pages": [
-    "pages/books/index",
-    "pages/list/index",
-    "pages/play/index"
+    "page/component/home/index",
+    "page/component/user/index",
+    "page/component/playlist/index",
+    "page/component/mv/index",
+    "page/component/playing/index"
   ],
   "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#4682B4",
-    "navigationBarTextStyle": "black",
-    "enablePullDownRefresh":true
-  }
-
+    "navigationBarTextStyle": "#fff",
+    "navigationBarTitleText": "Music",
+    "backgroundColor": "#fbfcfd",
+    "navigationBarBackgroundColor": "#191970"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "connectSocket": 10000,
+    "uploadFile": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
 }
