@@ -20,10 +20,12 @@
       </view>
     </view>
     <view  id="plh_action" >
-      <view>
-        <image src="../../../image/cm2_list_detail_icn_share@2x.png" />
-        <text>{{list.playlist.shareCount||'分享本书\r\n点击右上'}}</text>
-      </view>
+       <view> 
+        <button  open-type="share" size = "mini" plain = "true">
+        <!-- <image src="../../../image/cm2_list_detail_icn_share@2x.png" /> -->
+        分享
+        </button>
+       </view>
     </view>
   </view>
   <view class="plist-detail page_pp">
@@ -39,7 +41,13 @@
       </view>
       
        <template is="playlist" data="{{list:list.playlist.tracks,privileges:list.privileges,curplay:curplay}}" />
-
+<text class="st_title">提示：如您在使用中遇到任何问题，请联系我们！</text>
+<contact-button 
+  type="default-dark" 
+  size="22"
+  session-from="home"
+>
+</contact-button>
     </block>
     <block wx:if="{{!list.playlist.tracks.length}}">
       <view class="cntloading">加载中...

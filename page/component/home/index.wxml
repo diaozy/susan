@@ -129,7 +129,13 @@
       <!--end -->
     </view>
   </view>
-<text class="st_title">\n\r提示：若果在使用中遇到任何问题，欢迎到公众号《Susan英语学堂》留言反馈！</text>
+<text class="st_title">提示：如您在使用中遇到任何问题，请联系我们！</text>
+<contact-button 
+  type="default-dark" 
+  size="22"
+  session-from="home"
+>
+</contact-button>
   <!--歌单 -->
   <view class="tab_cnt" hidden="{{tabidx!=1}}">
     <view class='listheader' id="plc_header">{{catelist.checked.name}}

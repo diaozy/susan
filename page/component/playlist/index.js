@@ -20,7 +20,7 @@ Page({
   onShareAppMessage: function () {
     return {
       title: this.data.title,
-      path: '../playlist/index?pid=' + options.pid +'from=toplist'
+      path: 'page/component/playlist/index?pid=' + this.data.pid + 'from=toplist'
     }
   },
   toggleplay: function () {
@@ -62,6 +62,7 @@ Page({
     common.songheart(this,app, 0,(this.data.playtype==1? this.data.music.st:this.data.music.starred));
   },
   onLoad: function (options) {
+    this.setData({ pid: options.pid })
     var that = this
     wx.request({
       url: bsurl + 'playlist/detail',

@@ -1,1 +1,1 @@
-module.exports = "https://cloud99.xyz/v1/"
+module.exports = "https://www.cloud99.xyz/v1/"
