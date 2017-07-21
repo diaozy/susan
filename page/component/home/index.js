@@ -39,7 +39,7 @@ Page({
     },
     onShareAppMessage: function () {
       return {
-        path: '../home/index'
+        path: 'page/component/home/index'
       }
     },
     toggleplay: function () {

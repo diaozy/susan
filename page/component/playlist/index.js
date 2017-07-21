@@ -20,7 +20,7 @@ Page({
   onShareAppMessage: function () {
     return {
       title: this.data.title,
-      path: 'page/component/playlist/index?pid=' + this.data.pid + 'from=toplist'
+      path: 'page/component/playlist/index?pid=' + this.data.pid + '&from=toplist'
     }
   },
   toggleplay: function () {
